@@ -1,4 +1,4 @@
-name: EKS AutoMode Terraform Deployment
+name: EKS AutoMode Terraform Deployment0
 on:
   #push:
  #   branches:
