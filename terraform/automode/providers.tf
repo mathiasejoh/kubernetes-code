@@ -1,10 +1,10 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-2"
 }
 terraform {
   backend "s3" {
-    region = "us-east-1"
-    bucket = "devops4solutions-terraform"
+    region = "us-west-2"
+    bucket = "devopsdemo-5erbjm"
     key    = "eks_cluster_automode.tfstate"
   }
   required_providers {
